@@ -1,6 +1,6 @@
 var numbers = [];
 while (true) {
-	var value = prompt("Введите число", 0);
+	var value = prompt("Введіть число", 0);
 	if (value === "" || value === null || isNaN(value)) break;
 	numbers.push(+value);
 }
