@@ -2,7 +2,7 @@ document.head.style.backgroundColor = 'red';
 document.body.children[1].style.backgroundColor = 'pink';
 document.body.children[1].children[1].style.backgroundColor = 'grey';
 
-var list = document.getElementById('list')
+var list = document.getElementById('list');
 var li = document.createElement('li');
 li.innerHTML = 'Синій';
 list.appendChild(li);
